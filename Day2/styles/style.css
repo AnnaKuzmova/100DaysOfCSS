@@ -1,0 +1,119 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #3F3F3F;
+}
+
+.box-container {
+  width: 20%;
+  margin: 10% auto 0 auto;
+  padding-top: 3px;
+  text-align: center;
+  background-color: #f1eeee;
+  color: #504848;
+  border-radius: 8px;
+  -webkit-box-shadow: 2px 1px 7px 2px rgba(0, 0, 0, 0.56);
+  box-shadow: 2px 1px 7px 2px rgba(0, 0, 0, 0.56);
+  -webkit-animation: pop-in .4s linear forwards;
+          animation: pop-in .4s linear forwards;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
+
+.box-container .icon {
+  color: #e04646;
+  font-size: 2.500em;
+}
+
+.box-container h3 {
+  font-size: 1.500em;
+}
+
+.box-container button {
+  width: 100%;
+  padding: 15px 0;
+  background-color: #e04646;
+  color: #f1eeee;
+  border: none;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  font-size: 1em;
+}
+
+@-webkit-keyframes pop-in {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  70% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  90% {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes pop-in {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  70% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  90% {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@-webkit-keyframes pop-out {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  70% {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+  90% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  100% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+}
+
+@keyframes pop-out {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  70% {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+  90% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  100% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+}
+/*# sourceMappingURL=style.css.map */
